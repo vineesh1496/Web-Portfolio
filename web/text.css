@@ -1,0 +1,222 @@
+/* General Styles */
+body {
+    background-color: #F5E1DA; /* Warm Beige */
+    font-family: 'Lora', serif;
+    color: #2D2D2D; /* Charcoal Grey */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.top-header {
+    background-color: #8B0000; /* Deep Burgundy */
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #E57373; /* Soft Red */
+}
+
+.top-header-text a {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #F5E1DA; /* Warm Beige */
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+.top-header-text a:hover {
+    color: #B0B0B0; /* Steel Grey */
+}
+
+/* Marquee Styling */
+.marquee {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #F5E1DA; /* Warm Beige */
+    background-color: #8B0000; /* Deep Burgundy */
+    padding: 10px;
+    text-align: center;
+}
+
+/* About Me Section */
+.about-me {
+    padding: 50px 20px;
+    background-color: #F5E1DA; /* Warm Beige */
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #E57373; /* Soft Red */
+}
+
+.bottom-hi {
+    color: #B0B0B0; /* Steel Grey */
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.bottom-head {
+    font-size: 36px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #8B0000; /* Deep Burgundy */
+    margin: 10px 0;
+}
+
+.bottom-p {
+    font-size: 16px;
+    color: #2D2D2D; /* Charcoal Grey */
+    width: 60%;
+    margin: auto;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px 20px;
+    background-color: #F5E1DA; /* Warm Beige */
+}
+
+.gallery h2 {
+    font-size: 28px;
+    color: #8B0000; /* Deep Burgundy */
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 3px solid #E57373; /* Soft Red */
+    transition: transform 0.3s;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+    background-color: #F5E1DA; /* Warm Beige */
+}
+
+.projects h2 {
+    font-size: 28px;
+    color: #8B0000; /* Deep Burgundy */
+    margin-bottom: 20px;
+}
+
+.project-card {
+    background-color: #B0B0B0; /* Steel Grey */
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px auto;
+    width: 50%;
+    text-align: center;
+    border: 2px solid #E57373; /* Soft Red */
+}
+
+.project-card h3 {
+    font-size: 22px;
+    color: #8B0000; /* Deep Burgundy */
+}
+
+.project-card p {
+    font-size: 16px;
+    color: #2D2D2D; /* Charcoal Grey */
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #F5E1DA; /* Warm Beige */
+}
+
+.contact h2 {
+    font-size: 28px;
+    color: #8B0000;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input,
+.contact textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid #B0B0B0;
+    background-color: #F5E1DA;
+    color: #2D2D2D;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.contact button {
+    background-color: #E57373; /* Soft Red */
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background-color: #8B0000; /* Deep Burgundy */
+}
+
+/* Footer Section - Dark Burgundy */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#portfolio {
+    flex: 1;
+}
+
+footer {
+    background-color: #8B0000; /* Deep Burgundy */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    font-size: 14px;
+    border-top: 3px solid #E57373; /* Soft Red */
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    
+    text-align: center;
+    padding: 10px;
+}
